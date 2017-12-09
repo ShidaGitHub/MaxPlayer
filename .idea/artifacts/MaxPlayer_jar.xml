@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="MaxPlayer:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/MaxPlayer_jar</output-path>
+    <root id="archive" name="MaxPlayer.jar">
+      <element id="module-output" name="MaxPlayer" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/jl1.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/kj_dsp1.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/gson-2.3.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/mp3spi1.9.4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/owner-1.0.9.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/log4j-1.2.16.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/quartz-2.2.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/basicplayer3.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/java_websocket.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/tritonus_share.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/slf4j-api-1.7.7.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/commons-logging-api.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/slf4j-log4j12-1.7.7.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

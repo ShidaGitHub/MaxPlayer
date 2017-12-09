@@ -1,0 +1,42 @@
+.background{
+    -fx-background-color: white;
+}
+
+/*******************************************************************************
+ *                                                                             *
+ * Push Button                                                                 *
+ *                                                                             *
+ ******************************************************************************/
+
+.button {
+    -fx-border-color: transparent;
+    -fx-background-radius: 0;
+    -fx-background-color: transparent;
+    -fx-min-width: 3em;
+    -fx-min-height: 3em;
+    -fx-max-width: 3em;
+    -fx-max-height: 3em;
+}
+.button:hover{
+    -fx-background-color: #cccccc;
+}
+.button:pressed, .button:default:hover:pressed{
+  -fx-background-color: blue;
+}
+.button:focused{
+    -fx-border-color: transparent, black;
+    -fx-border-width: 1, 1;
+    -fx-border-style: solid, segments(1, 2);
+    -fx-border-radius: 0, 0;
+    -fx-border-insets: 1 1 1 1, 0;
+}
+.button:disabled, .button:default:disabled{
+    -fx-opacity: 0.4;
+    -fx-background-color: #cccccc;
+}
+.button:default{
+    -fx-background-color: blue;
+}
+.button:default:hover{
+    -fx-background-color: blue;
+}
